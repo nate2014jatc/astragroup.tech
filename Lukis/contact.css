@@ -1,0 +1,137 @@
+body	{
+	display: inline;
+}
+
+#name	{
+	color: lightgray;
+	font-size: 45pt;
+	width: 95%;
+	height: 650px;
+	position: relative;
+}
+
+#form	{
+	color: lightgray;
+	font-size: 35pt;
+	position: relative;
+}
+
+#bio	{
+	font-size: 24pt;
+	width: 50%;
+	position: absolute;
+	top: 20%;
+	left: 10%;
+}
+
+#profile	{
+	position: absolute;
+	top: 20%;
+	right: 10%;
+}
+
+#logo	{
+	width: 25%;
+}
+
+#topbar	{
+	width: 95%;
+	height: 64px;
+	line-height: 64px;
+	background-color: lightgray;
+
+}
+
+#portfolio	{
+	text-decoration: none;
+	display: inline-block;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#portfolio :hover	{
+	text-decoration: none;
+	display: inline-block;
+	background-color: #FFD400;
+	border-radius: 56px;
+}
+
+#contact	{
+	text-decoration: none;
+	display: inline-block;
+	background-color: #9999ff;
+	border-radius: 56px;
+}
+
+#contact :hover	{
+	text-decoration: none;
+	display: inline-block;
+	background-color: #FFD400;
+	border-radius: 56px;
+}
+
+#info	{
+	text-decoration: none;
+	display: inline-block;
+}
+
+#info :hover	{
+	text-decoration: none;
+	display: inline-block;
+	background-color: #FFD400;
+	border-radius: 56px;
+}
+
+.tbstyles	{
+	font-family: "Bungee Shade";
+}
+
+.tblink {
+	margin-right: auto;
+	margin-left: auto;
+	text-decoration: none;
+	color: black;
+	font-family: "Bungee Shade";
+	text-align: center;
+}
+
+#name .colored	{
+	color: #9999ff;
+}
+
+
+input[type=text], select, textarea {
+	background-color: lightgray;
+	font-family: Roboto;
+	color: #000000;
+    width: 100%;
+    padding: 12px;
+    border: 10px solid #ffffff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+input[type=submit] {
+    background-color: #9999ff;
+    color: #000000;
+	font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #FFD400;
+}
+
+.container {
+	width: 50%;
+}
+
+a	{
+	text-decoration:none;
+}

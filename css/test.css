@@ -1,0 +1,11 @@
+<span align="center" class="test" name="test">columns: 9 auto;
+-moz-columns: 9 auto;
+-webkit-columns: 9 auto;
+column-gap: normal;
+-moz-column-gap: normal;
+-webkit-column-gap: normal;
+column-rule: #37DA22 groove medium;
+-moz-column-rule: #37DA22 groove medium;
+-webkit-column-rule: #37DA22 groove medium;
+
+</span>

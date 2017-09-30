@@ -1,0 +1,84 @@
+A:link {
+    text-decoration: none;
+    color: #c0c0c0;
+}
+A:visited {
+    color: #ffd700;
+}
+A:hover {
+    color: #800080;
+}
+body{
+	background-image:url('../images/ezgif.com-9d8ef042cc.gif');
+	/*background-repeat: no-repeat;*/
+	/*background-size: 100%;*/
+	background-color: #FC9F00;
+	color:blue;
+	font-size: 1.25rem;
+}	
+#header {
+	float: left;
+	display: block;	
+}
+#header div	{
+	display: inline-block;
+}
+div	div	a	{
+	margin-right: 8px;
+	margin-top: 8px;
+}
+#header div	{
+	background-color: rgba(255, 143, 6, 0.9);
+	background-image:url('../images/furnace_front_off.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 196px;
+	height: 196px;
+	border-radius: 5px;
+}
+#header div:hover	{
+	background-color: rgba(86, 145, 204, 0.9);
+	background-image:url('../images/furnace_front_on.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#header	div	img		{
+	float: left;
+	height: 75px;
+	width: 75px;
+}
+#Art	{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 20%;
+	min-width: 256px;
+	z-index: -1;
+}
+.MOTIV		{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.MOTIV	td	{
+	color: #00FF00;
+}
+.MOTIV	a	{
+	color: #00FF00;
+}
+.MOTIV	a:visited	{
+	color: #0099FF;
+}
+.MOTIV	a:hover	{
+	color: #FF0000;
+}
+.MOTIV	{
+	border-radius: 15px;
+	background-color: #444444;
+	width: 384px;
+	padding-bottom: 3px;
+}
+.MOTIV-HEADER	{
+	color: #00FF00;
+	text-decoration: underline;
+}

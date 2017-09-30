@@ -1,0 +1,32 @@
+body	{
+	background-color: #D5F5E3;
+}
+
+table	{
+	width: 80%;
+	
+	background-color: floralwhite;
+	
+	padding-bottom: 4px;
+	padding-top: 4px;
+	padding-left: 4px;
+	padding-right: 4px;
+	
+	border-radius: 15px;
+	
+	box-shadow: 15px -15px 5px rgba(0,0,0,0.2);
+	
+	font-size: 13pt;
+}
+
+tr	{
+	height: 15px;
+}
+
+tbody tr:nth-child(even) {
+	background-color: #fff;
+}
+
+tbody tr:nth-child(odd)	{
+	background-color: #CCC;
+}

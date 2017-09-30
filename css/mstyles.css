@@ -1,0 +1,21 @@
+body    {
+    background-color:#000;
+    background-image: url(../images/bg2.png);
+    background-position: center top;
+    background-repeat: repeat-y;
+}
+
+#main   {
+    width: 95%;
+    background-color: #00BBC4;
+    height: 100%;
+}
+
+.button a   img {
+    width: 35%;
+    display: inline;
+}
+
+.button a   img:hover   {
+    filter: invert(100%);
+}

@@ -1,0 +1,197 @@
+body	{
+	display: inline;
+}
+
+#name	{
+	color: lightgray;
+	font-size: 45pt;
+	width: 95%;
+	height: 550px;
+	position: relative;
+}
+
+#bio	{
+	font-size: 24pt;
+	width: 50%;
+	position: absolute;
+	top: 20%;
+	left: 10%;
+}
+
+#profile	{
+	position: absolute;
+	top: 20%;
+	right: 10%;
+}
+
+#logo	{
+	width: 25%;
+}
+
+#topbar	{
+	width: 95%;
+	height: 64px;
+	line-height: 64px;
+	background-color: lightgray;
+
+}
+
+#portfolio	{
+	text-decoration: none;
+	display: inline-block;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: #9999ff;
+	border-radius: 56px;
+}
+
+#portfolio :hover	{
+	text-decoration: none;
+	display: inline-block;
+	background-color: #FFD400;
+	border-radius: 56px;
+}
+
+#contact	{
+	text-decoration: none;
+	display: inline-block;
+}
+
+#contact :hover	{
+	text-decoration: none;
+	display: inline-block;
+	background-color: #FFD400;
+	border-radius: 56px;
+}
+
+#info	{
+	text-decoration: none;
+	display: inline-block;
+}
+
+#info :hover	{
+	text-decoration: none;
+	display: inline-block;
+	background-color: #FFD400;
+	border-radius: 56px;
+}
+
+#demo	{
+	background-color: lime;
+	width: 256px;
+	height: 256px;
+	display: block;
+	float: center;
+	border-radius: 25px;
+	border: 3px solid red;
+	
+}
+
+#vname	{
+	color: lightgray;
+	font-size: 36pt;
+	width: 95%;
+	height: 250px;
+	position: relative;
+}
+
+#description	{
+	font-size: 18pt;
+	width: 95%;
+}
+
+#sname	{
+	color: lightgray;
+	font-size: 36pt;
+	width: 95%;
+	height: 600px;
+	position: relative;
+}
+
+#station	{
+	font-size: 18pt;
+	width: 95%;
+}
+
+#tname	{
+	text-decoration: none;
+	color: lightgray;
+	font-size: 36pt;
+	width: 95%;
+	height: 200px;
+	position: relative;
+}
+
+#website	{
+	text-decoration: none;
+	font-size: 18pt;
+	width: 95%;
+}
+
+.tbstyles	{
+	font-family: "Bungee Shade";
+}
+
+.tblink {
+	margin-right: auto;
+	margin-left: auto;
+	text-decoration: none;
+	color: black;
+	font-family: "Bungee Shade";
+	text-align: center;
+}
+
+#pictures	{
+	position: relative;
+	height: 50%;
+	width: 85%;
+}
+
+#imgstar	{
+
+}
+
+.gallery	{
+	display: inline-block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: inline-block;
+}
+
+.view	{
+	position: relative;
+	left: 5%;
+	display: inline-block;
+}
+	
+
+
+.thumbnails img {
+	height: 80px;
+	border: 4px solid #555;
+	padding: 1px;
+	margin: 0 10px 10px 0;
+	width: 100px
+}
+
+.thumbnails img:hover {
+	border: 4px solid #0000ff;
+	cursor:pointer;
+}
+
+.view img {
+	border: 4px solid #444;
+	padding: 1px;
+	width: 800px;
+}
+
+
+
+#name .colored	{
+	color: #9999ff;
+}
+
+a	{
+	text-decoration:none;
+}
